@@ -1,0 +1,76 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #150b3e;
+  border-radius: 6px;
+  width: 60vh;
+  height: 80vh;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #d4d2db;
+  color: #7c3aed;
+  margin: 10px;
+}
+.user-details-container {
+  display: flex;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  align-self: center;
+}
+.balance-heading {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+}
+
+.head {
+  color: #c4c4c4;
+  font-size: 10px;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.sum-para {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 10px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.amount {
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 17px;
+}
+.head {
+  color: #585076;
+}
+.balance-heading {
+  color: #585076;
+}
